@@ -1,9 +1,9 @@
 @echo off
 REM Change to the project directory
-cd C:\Users\SAVASCIO\PycharmProjects\priceParser
+cd path_to_project_directory
 
 REM Activate the virtual environment
-call C:\Users\SAVASCIO\PycharmProjects\priceParser\venv\Scripts\activate.bat
+call Project_Directory\venv\Scripts\activate.bat
 
 REM Run the manage.py script with the desired command
 python manage.py
